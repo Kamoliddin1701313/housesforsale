@@ -1,0 +1,36 @@
+header {
+  position: relative;
+}
+
+.wrap {
+  background-image: url("https://www.ataevbahodirbuild.uz/static/media/city1.51e44d49b1c61434ca07.jpeg");
+  width: 100%;
+  background-position: center -180px;
+  background-size: cover;
+  height: 100%;
+}
+
+ul li {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+ul li a::before {
+  content: "";
+  width: 0;
+  position: absolute;
+  background-color: white;
+  height: 3px;
+  bottom: -4px;
+  left: 50%;
+  transform: translateX(-50%);
+  transition: 0.4s all;
+}
+ul li a:hover:before {
+  width: 100%;
+}
+
+/* ul li a img {
+  width: 120px;
+} */

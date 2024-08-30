@@ -6,12 +6,12 @@ module.exports = {
   ],
   theme: {
     extend: {},
-
     screens: {
-      // xl: { max: "1085px" },
-      // lg: { max: "992px" },
-      // md: { max: "768px" },
-      // sm: { max: "576px" },
+      xxl: { max: "1280px" },
+      xl: { max: "1085px" },
+      lg: { max: "992px" },
+      md: { max: "768px" },
+      sm: { max: "576px" },
     },
   },
   plugins: [],

@@ -14,10 +14,10 @@ function Barchayangiliklar() {
   }, []);
 
   const { t, i18n } = useTranslation();
-
+  //bg-[#f7f7f7]
   return (
-    <div className="bg-[#f7f7f7]">
-      <div className="max-w-[1280px] mx-auto py-20 lg:py-10 sm:px-10">
+    <div className="">
+      <div className="max-w-[1280px] overflow-hidden mx-auto py-20 lg:py-10 sm:px-10">
         <h3 className="mb-6 text-[30px] text-black font-medium lg:text-center">
           {t("barcha_yangiliklar")}
         </h3>

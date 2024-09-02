@@ -3,11 +3,10 @@ header {
 }
 
 .wrap {
-  background-image: url("https://www.ataevbahodirbuild.uz/static/media/city1.51e44d49b1c61434ca07.jpeg");
+  background-image: url("../../../assets/headerBgImg.jpg");
   width: 100%;
-  background-position: center -180px;
+  background-position: center;
   background-size: cover;
-  height: 100%;
 }
 
 ul li {

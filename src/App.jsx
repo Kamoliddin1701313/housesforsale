@@ -1,16 +1,28 @@
+import Layouts from "./app/layout/Layouts";
+import { Route, Routes } from "react-router-dom";
+import MainLayout from "./app/components/MainLayout";
 import "./App.css";
-import Footer from "./app/components/footer/Footer";
-import Navbar from "./app/components/navbar/Navbar";
-import LayoutComponents from "./app/layout/LayoutComponents";
+import BizningLoyihalarimiz from "./app/components/BizningLoyihalarimiz";
+import AtayevBahodirHaqida from "./app/components/AtayevBahodirHaqida";
 
 // AOS kutubxonasi
 
 function App() {
   return (
     <div>
-      <Navbar />
-      <LayoutComponents />
-      <Footer />
+      <Routes>
+        <Route path="" element={<Layouts />}>
+          <Route path="/" element={<MainLayout />} />
+          <Route
+            path="/bizningLoyihalarimiz"
+            element={<BizningLoyihalarimiz />}
+          />
+          <Route
+            path="/atayevBahodirHaqida"
+            element={<AtayevBahodirHaqida />}
+          />
+        </Route>
+      </Routes>
     </div>
   );
 }

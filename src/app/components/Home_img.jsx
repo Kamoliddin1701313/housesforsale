@@ -11,7 +11,7 @@ function Home_img() {
 
   return (
     <div className="mx-auto">
-      <h3 className="text-center my-6 text-[30px] text-black font-medium">
+      <h3 className="text-center my-8 text-[30px] text-black font-medium">
         {t("sizning_uyingiz")}
       </h3>
       <div className="grid grid-cols-3 lg:grid-cols-2 md:grid-cols-1 sm:px-10 sm:gap-y-5">

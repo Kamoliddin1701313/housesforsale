@@ -5,8 +5,8 @@ function BizningLoyihalarimiz() {
   const { t, i18n } = useTranslation();
 
   return (
-    <div className="max-w-[1280px] mx-auto py-10">
-      <h3 className="mb-6 mt-12 md:text-center text-[30px] md:mt-0 text-black font-medium">
+    <div className="max-w-[1280px] overflow-hidden mx-auto py-10">
+      <h3 className="mb-6 mt-5 md:text-center text-[30px] md:mt-0 text-black font-medium">
         {t("bizning_loyiha")}
       </h3>
 

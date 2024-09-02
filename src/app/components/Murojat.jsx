@@ -1,7 +1,7 @@
 function Murojat() {
   return (
-    <div className="bg-slate-900 py-28">
-      <div className="bg-[url('src/assets/girl-img.png')] h-[700px] mx-auto md:bg-right bg-cover w-4/5 rounded-[40px] py-10 px-20 sm:px-10">
+    <div className="bg-slate-900 py-28 overflow-hidden">
+      <div className="bg-[url('src/assets/girl-img.png')] h-[700px] mx-auto max-w-[1280px] md:bg-right bg-cover w-4/5 rounded-[40px] py-10 px-20 sm:px-10">
         <form
           data-aos="fade-up"
           data-aos-anchor-placement="bottom-bottom"

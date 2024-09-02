@@ -5,7 +5,7 @@ function Hamkorlar() {
   const { t, i18n } = useTranslation();
 
   return (
-    <div className="mx-auto">
+    <div className="mx-auto overflow-hidden">
       <h3 className="text-center mb-6 mt-10 text-[30px] text-black font-medium">
         {t("hamkorlar")}
       </h3>

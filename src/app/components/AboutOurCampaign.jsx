@@ -8,7 +8,7 @@ function AboutOurCampaign() {
 
   return (
     <div className="py-[90px] bg-cover bg-center bg-[url('src/assets/react-countup.png')]">
-      <div className="mx-auto max-w-[1280px] xxl:px-10">
+      <div className="mx-auto max-w-[1280px] sm:overflow-x-auto xxl:px-10">
         <h2 className="text-[25px] font-normal lg:text-center text-white">
           {t("bizning_kompaniya")}
         </h2>

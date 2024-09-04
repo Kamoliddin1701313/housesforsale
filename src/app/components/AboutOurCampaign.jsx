@@ -48,7 +48,7 @@ function AboutOurCampaign() {
           </div>
 
           <div className="w-full">
-            <h1 className="text-[45px] lg:text-[36px] font-bold flex gap-3">
+            <h1 className="text-[45px] lg:text-[36px] sm:text-[28px] font-bold flex gap-3">
               <CountUp start={0} end={250} delay={0} duration={7}>
                 {({ countUpRef }) => (
                   <div>
@@ -58,7 +58,9 @@ function AboutOurCampaign() {
               </CountUp>
               <span>+</span>
             </h1>
-            <p className="text-[21px] lg:text-[18px]">{t("maxsus_jihozlar")}</p>
+            <p className="text-[21px] lg:text-[18px] sm:text-[14px]">
+              {t("maxsus_jihozlar")}
+            </p>
           </div>
 
           <div className="w-full">

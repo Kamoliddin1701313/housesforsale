@@ -37,8 +37,13 @@
   "build": "QURING",
   "content": "Biz shunchaki loyihalar yaratmaymiz, yangi imkoniyatlar yaratamiz.Davlat miqyosidagi inshootlarni qurish orqali biz kelajakni quryapmiz.Biz atrof-muhit haqida qayg'uramiz: kompaniya binolar vainfratuzilmani qurish va ulardan foydalanish bilan bog'liq ekologikjihatlar uchun to'liq javobgarlikni o'z zimmasiga oladi.",
   "tooter_title": "Ijtimoiy tarmoqlarimizga obuna bo'ling",
-  "at_bah_haqida":"ATAEV BAHODIR BUILD haqida",
-  "bosh_btn":"Bosh sahifa",
-  "sarlavha_text":"Biz shunchaki loyihalar yaratmaymiz, yangi imkoniyatlar yaratamiz.Davlat miqyosidagi inshootlarni qurish orqali biz kelajakni quryapmiz.Biz atrof-muhit haqida qayg'uramiz: kompaniya binolar vainfratuzilmani qurish va ulardan foydalanish bilan bog'liq ekologikjihatlar uchun to'liq javobgarlikni o'z zimmasiga oladi."
-
+  "at_bah_haqida": "ATAEV BAHODIR BUILD haqida",
+  "bosh_btn": "Bosh sahifa",
+  "sarlavha_text": "Biz shunchaki loyihalar yaratmaymiz, yangi imkoniyatlar yaratamiz.Davlat miqyosidagi inshootlarni qurish orqali biz kelajakni quryapmiz.Biz atrof-muhit haqida qayg'uramiz: kompaniya binolar vainfratuzilmani qurish va ulardan foydalanish bilan bog'liq ekologikjihatlar uchun to'liq javobgarlikni o'z zimmasiga oladi.",
+  "bizning_loyihalarimiz": "Bizning loyihalarimiz",
+  "kompaniyamiz": "Kompaniyamiz",
+  "aloqa": "Aloqa",
+  "xabar-text": "Savol, taklif va",
+  "xabar-text1":"murojaatlar bormi?",
+  "yuborish-btn":"Yuborish"
 }

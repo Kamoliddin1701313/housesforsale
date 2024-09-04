@@ -1,4 +1,3 @@
-// import { useTranslation } from "react-i18next";
 import { Link } from "react-router-dom";
 import { MdOutlineNavigateNext } from "react-icons/md";
 import usersImg from "../../assets/usersImg.jpg";
@@ -8,11 +7,11 @@ const AtayevBahodirHaqida = () => {
   const { t, i18n } = useTranslation();
 
   return (
-    <div className="mx-auto max-w-[1280px] xxl:p-10">
+    <div className={`mx-auto max-w-[1280px] mt-28 xxl:p-10`}>
       <h1 className="text-[#222936] text-[32px] md:text-center">
         {t("at_bah_haqida")}
       </h1>
-      <Link to={"/"}>
+      <Link to="/">
         <div className="flex items-center md:justify-center my-5 md:my-7">
           <span className="text-gray-white text-[16px] leading-[19px]">
             {t("bosh_btn")}

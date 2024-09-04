@@ -38,14 +38,16 @@ function Footer() {
 
         <div className="flex justify-between flex-1 sm:grid-cols-1 sm:grid">
           <div>
-            <p className="my-[22px] text-[22px] font-bold">Kompaniyamiz</p>
+            <p className="my-[22px] text-[22px] font-bold">
+              {t("kompaniyamiz")}
+            </p>
             <ul className="flex flex-col gap-y-[18px] md:gap-y-[10px] text-[22px] text-stone-600 relative">
               <li className="flex justify-start">
                 <a
                   href="#"
                   className="before:content-[''] before:w-0 hover:before:w-full before:bg-stone-600 before:h-[3px] before:absolute before:-bottom-1"
                 >
-                  Korxonalar
+                  {t("korxonalar")}
                 </a>
               </li>
               <li className="flex justify-start">
@@ -53,7 +55,7 @@ function Footer() {
                   href="#"
                   className="before:content-[''] before:w-0 hover:before:w-full before:bg-stone-600 before:h-[3px] before:absolute before:-bottom-1"
                 >
-                  Biz haqimizda
+                  {t("biz-haqimizda")}
                 </a>
               </li>
               <li className="flex justify-start">
@@ -61,7 +63,7 @@ function Footer() {
                   href="#"
                   className="before:content-[''] before:w-0 hover:before:w-full before:bg-stone-600 before:h-[3px] before:absolute before:-bottom-1"
                 >
-                  Yangiliklar
+                  {t("yangiliklar")}
                 </a>
               </li>
               <li className="flex justify-start">
@@ -69,14 +71,14 @@ function Footer() {
                   href="#"
                   className="before:content-[''] before:w-0 hover:before:w-full before:bg-stone-600 before:h-[3px] before:absolute before:-bottom-1"
                 >
-                  Bizning loyihalarimiz
+                  {t("bizning_loyihalarimiz")}
                 </a>
               </li>
             </ul>
           </div>
 
           <div>
-            <p className="my-[22px] text-[22px] font-bold">Aloqa</p>
+            <p className="my-[22px] text-[22px] font-bold">{t("aloqa")}</p>
             <ul className="flex flex-col gap-y-[18px] md:gap-y-[10px] text-[22px] text-stone-600 relative">
               <li className="flex justify-start">
                 <a

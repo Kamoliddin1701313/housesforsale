@@ -1,7 +1,7 @@
+import "./App.css";
 import Layouts from "./app/layout/Layouts";
 import { Route, Routes } from "react-router-dom";
 import MainLayout from "./app/components/MainLayout";
-import "./App.css";
 import BizningLoyihalarimiz from "./app/components/BizningLoyihalarimiz";
 import AtayevBahodirHaqida from "./app/components/AtayevBahodirHaqida";
 

@@ -1,4 +1,7 @@
+import { useTranslation } from "react-i18next";
+
 function Murojat() {
+  const { t, i18n } = useTranslation();
   return (
     <div className="bg-slate-900 py-28 overflow-hidden">
       <div className="bg-[url('src/assets/girl-img.png')] h-[700px] mx-auto max-w-[1280px] md:bg-right bg-cover w-4/5 rounded-[40px] py-10 px-20 sm:px-10">
@@ -11,13 +14,13 @@ function Murojat() {
             data-aos="fade-right"
             className="text-[32px] text-white md:text-center"
           >
-            Savol, taklif va
+            {t("xabar-text")}
           </h2>
           <h2
             data-aos="fade-left"
             className="text-[32px] text-white md:text-center"
           >
-            murojaatlar bormi?
+            {t("xabar-text1")}
           </h2>
           <input
             type="text"
@@ -39,7 +42,7 @@ function Murojat() {
           ></textarea>
 
           <button className="mt-[30px] md:w-full duration-300 ease-in hover:bg-transparent border-2 text-base text-white rounded-[35px] w-[231px] h-[45px] bg-slate-500 border-[#8ea9c9d0]">
-            Yuborish
+            {t("yuborish-btn")}
           </button>
         </form>
       </div>

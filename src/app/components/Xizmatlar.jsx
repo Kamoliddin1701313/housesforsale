@@ -15,7 +15,6 @@ function Xizmatlar() {
   }, []);
 
   const { t, i18n } = useTranslation();
-  // bg-[#fce8bd] overflow-scroll
   return (
     <div className="bg-[#fce8bd] overflow-hidden">
       <div className="max-w-[1280px] mx-auto py-16 xxl:px-5 sm:px-10 sm:py-5">

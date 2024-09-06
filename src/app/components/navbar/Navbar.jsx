@@ -2,7 +2,8 @@ import { useEffect, useState } from "react";
 import "./navbar.css";
 import { IoClose } from "react-icons/io5";
 import { HiOutlineBars3 } from "react-icons/hi2";
-
+import text_img from "../../../assets/text_img.png";
+import footer_logo from "../../../assets/footer_logo_img.png";
 import { useTranslation } from "react-i18next";
 import { style } from "../../styleses";
 
@@ -32,7 +33,7 @@ function Navbar() {
   return (
     <header>
       <div
-        className={`z-[999] fixed top-0 w-full transition-all duration-300 ${
+        className={`z-50 fixed top-0 w-full transition-all duration-300 ${
           isScrolled ? "bg-[#fce8bd]/80" : "bg-transparent"
         }`}
       >
@@ -65,15 +66,15 @@ function Navbar() {
             }`}
           >
             <li className={`${isScrolled ? "text-black" : "text-white"}`}>
-              <a href="#">{t("malumot")}</a>
+              <a href="/">{t("malumot")}</a>
             </li>
 
             <li className={`${isScrolled ? "text-black" : "text-white"}`}>
-              <a href="#">{t("biz-haqimizda")}</a>
+              <a href="#biz-haqimizda">{t("biz-haqimizda")}</a>
             </li>
 
             <li className={`${isScrolled ? "text-black" : "text-white"}`}>
-              <a href="#">{t("korxonalar")}</a>
+              <a href="#korxonalar">{t("korxonalar")}</a>
             </li>
 
             <li
@@ -83,7 +84,7 @@ function Navbar() {
             >
               <a href="#">
                 <img
-                  src="src/assets/text_img.png"
+                  src={`${isScrolled ? footer_logo : text_img}`}
                   alt="text_img"
                   className="w-[120px] xl:w-[100px] lg:w-[80px]"
                 />
@@ -91,11 +92,11 @@ function Navbar() {
             </li>
 
             <li className={`${isScrolled ? "text-black" : "text-white"}`}>
-              <a href="#">{t("afzaliklar")}</a>
+              <a href="#bizning-loyihalarimiz">{t("afzaliklar")}</a>
             </li>
 
             <li className={`${isScrolled ? "text-black" : "text-white"}`}>
-              <a href="#">{t("yangiliklar")}</a>
+              <a href="#yangiliklar">{t("yangiliklar")}</a>
             </li>
 
             <li className={`${isScrolled ? "text-black" : "text-white"}`}>

@@ -21,7 +21,9 @@ function Layouts() {
   return (
     <div className="scroll-smooth flex flex-col h-screen">
       <Navbar />
+
       <Outlet />
+
       <Footer />
     </div>
   );

@@ -1,11 +1,46 @@
-import { homeImages } from "../mock";
 import { useTranslation } from "react-i18next";
 
 function BizningLoyihalarimiz() {
   const { t, i18n } = useTranslation();
 
+  const homeImages = [
+    {
+      title: t("magic_text"),
+      text: t("magic_description"),
+      img: "src/app/mockImg/img1.jpg",
+    },
+    {
+      title: t("garden_text"),
+      text: t("garden_description"),
+      img: "src/app/mockImg/img2.jpg",
+    },
+    {
+      title: t("fonon_text"),
+      text: t("fonon_description"),
+      img: "src/app/mockImg/img3.jpg",
+    },
+    {
+      title: t("invento_text"),
+      text: t("invento_description"),
+      img: "src/app/mockImg/img4.jpg",
+    },
+    {
+      title: t("presidential_school_text"),
+      text: t("presidential_school_description"),
+      img: "src/app/mockImg/img5.jpg",
+    },
+    {
+      title: t("boulevard_text"),
+      text: t("boulevard_description"),
+      img: "src/app/mockImg/img6.jpg",
+    },
+  ];
+
   return (
-    <div className="max-w-[1280px] overflow-hidden mx-auto py-10">
+    <div
+      id="bizning-loyihalarimiz"
+      className="max-w-[1280px] overflow-hidden mx-auto py-10"
+    >
       <h3 className="mb-6 mt-5 md:text-center text-[30px] md:mt-0 text-black font-medium">
         {t("bizning_loyiha")}
       </h3>

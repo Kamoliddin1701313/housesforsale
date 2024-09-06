@@ -7,7 +7,7 @@ function Footer() {
   const { t, i18n } = useTranslation();
 
   return (
-    <div className="bg-[#fce8bd] top-0">
+    <div className="bg-[#fce8bd] bottom-0">
       <div className="mx-auto max-w-[1280px] md:grid-cols-1 md:grid flex py-[70px] justify-between px-10">
         <div className="flex-1">
           <img
@@ -42,33 +42,33 @@ function Footer() {
               {t("kompaniyamiz")}
             </p>
             <ul className="flex flex-col gap-y-[18px] md:gap-y-[10px] text-[22px] text-stone-600 relative">
-              <li className="flex justify-start">
+              <li className="flex justify-start" id="korxonalar">
                 <a
-                  href="#"
+                  href="#korxonalar"
                   className="before:content-[''] before:w-0 hover:before:w-full before:bg-stone-600 before:h-[3px] before:absolute before:-bottom-1"
                 >
                   {t("korxonalar")}
                 </a>
               </li>
-              <li className="flex justify-start">
+              <li className="flex justify-start" id="biz-haqimizda">
                 <a
-                  href="#"
+                  href="#biz-haqimizda"
                   className="before:content-[''] before:w-0 hover:before:w-full before:bg-stone-600 before:h-[3px] before:absolute before:-bottom-1"
                 >
                   {t("biz-haqimizda")}
                 </a>
               </li>
-              <li className="flex justify-start">
+              <li className="flex justify-start" id="yangiliklar">
                 <a
-                  href="#"
+                  href="#yangiliklar"
                   className="before:content-[''] before:w-0 hover:before:w-full before:bg-stone-600 before:h-[3px] before:absolute before:-bottom-1"
                 >
                   {t("yangiliklar")}
                 </a>
               </li>
-              <li className="flex justify-start">
+              <li className="flex justify-start" id="bizning-loyihalarimiz">
                 <a
-                  href="#"
+                  href="#bizning-loyihalarimiz"
                   className="before:content-[''] before:w-0 hover:before:w-full before:bg-stone-600 before:h-[3px] before:absolute before:-bottom-1"
                 >
                   {t("bizning_loyihalarimiz")}

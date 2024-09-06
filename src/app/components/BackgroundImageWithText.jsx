@@ -34,7 +34,7 @@ function BackgroundImageWithText() {
         <div className="flex gap-5 items-center mt-24 text-white pb-10 md:justify-center">
           <Link to={"/atayevBahodirHaqida"}>
             <button className="rounded-[22px] w-[130px] outline-[5px] outline-white border-[2px] hover:bg-white hover:text-gray-600 duration-500 ease-in py-2">
-              Batafsil bilish
+              {t("batafsil-bilish")}
             </button>
           </Link>
         </div>

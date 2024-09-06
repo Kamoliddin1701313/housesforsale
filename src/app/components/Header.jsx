@@ -34,12 +34,12 @@ const Header = () => {
           {t("text")}
         </p>
 
-        <div className="flex mt-auto gap-5 xxl:mx-[50px] md:flex lg:justify-center items-center mb-10 text-white pb-10">
-          <button className="rounded-[22px] w-[130px] outline-[5px] outline-white border-[2px] hover:bg-white hover:text-gray-600 duration-500 ease-in py-2">
+        <div className="flex sm:grid mt-auto sm:grid-cols-1 gap-5 xxl:mx-[50px] md:flex lg:justify-center items-center mb-10 text-white pb-10">
+          <button className="rounded-[22px] w-[130px] outline-[5px] sm:w-full outline-white border-[2px] hover:bg-white hover:text-gray-600 duration-500 ease-in py-2">
             <Link to="/bizningLoyihalarimiz">{t("btn-content")}</Link>
           </button>
 
-          <button className="rounded-[22px] w-[130px] outline-[5px] outline-white border-[2px] hover:bg-white hover:text-gray-600 duration-500 ease-in py-2">
+          <button className="rounded-[22px] w-[130px] outline-[5px] sm:w-full outline-white border-[2px] hover:bg-white hover:text-gray-600 duration-500 ease-in py-2">
             {t("btn-boglanish")}
           </button>
         </div>

@@ -14,7 +14,6 @@ function Barchayangiliklar() {
   }, []);
 
   const { t, i18n } = useTranslation();
-  //bg-[#f7f7f7]
   return (
     <div id="yangiliklar">
       <div className="max-w-[1280px] overflow-hidden mx-auto py-20 lg:py-10 sm:px-10">
@@ -48,7 +47,7 @@ function Barchayangiliklar() {
               alt="gardrop"
               className="w-1/2 h-full rounded-l-[30px]"
             />
-            <div className="w-1/2 p-5 rounded-r-[30px] bg-white xxl:overflow-y-auto">
+            <div className="w-1/2 p-5 rounded-r-[30px] h-full bg-white xxl:overflow-y-auto ">
               <button className="w-3/6 bg-[#363f4e] rounded-[17px] border-[#363f4e] duration-300 ease-in h-[26px] border-[2px] hover:bg-white"></button>
               <h3 className="text-[18px] leading-[22px] my-3">
                 {t("tabriknoma")}
@@ -58,7 +57,7 @@ function Barchayangiliklar() {
           </div>
         </div>
 
-        <div className="flex items-center mt-24 lg:mt-10 justify-between gap-12 lg:gap-5 sm:grid-cols-1 sm:grid">
+        <div className="flex items-center mt-24 sm:mt-5 lg:mt-10 justify-between gap-12 lg:gap-5 sm:grid-cols-1 sm:grid">
           <div data-aos="fade-right" className="flex w-1/2 h-[285px] sm:w-full">
             <img
               data-aos="flip-right"

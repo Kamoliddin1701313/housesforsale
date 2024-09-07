@@ -1,26 +1,35 @@
+import mapimg1 from "/src/assets/mapimg1.jpg";
+import mapimg2 from "/src/assets/mapimg2.jpg";
+import mapimg3 from "/src/assets/mapimg3.jpg";
+import mapimg4 from "/src/assets/mapimg4.jpg";
+import mapimg5 from "/src/assets/mapimg5.jpg";
+import mapimg6 from "/src/assets/mapimg6.jpg";
+import mapimg7 from "/src/assets/mapimg7.jpg";
+import mapimg8 from "/src/assets/mapimg8.jpg";
+
 export const hamkorlar = [
   {
-    img: "https://www.ataevbahodirbuild.uz/static/media/gallery1.323b40a21da097cb0e9f.jpg",
+    img: mapimg1,
   },
   {
-    img: "https://www.ataevbahodirbuild.uz/static/media/gallery2.db1310c2308c289176da.jpg",
+    img: mapimg2,
   },
   {
-    img: "https://www.ataevbahodirbuild.uz/static/media/gallery3.b69521e967c812c792b2.jpg",
+    img: mapimg3,
   },
   {
-    img: "https://www.ataevbahodirbuild.uz/static/media/gallary4.6864081bbc6c5f87cffa.jpg",
+    img: mapimg4,
   },
   {
-    img: "https://www.ataevbahodirbuild.uz/static/media/gallery5.a3ea745cffd972d946a5.jpg",
+    img: mapimg5,
   },
   {
-    img: "https://www.ataevbahodirbuild.uz/static/media/gallery6.77d03be1807faf0577c7.jpg",
+    img: mapimg6,
   },
   {
-    img: "https://www.ataevbahodirbuild.uz/static/media/gallery7.3e69f7a0c725d2e46b7e.jpg",
+    img: mapimg7,
   },
   {
-    img: "https://www.ataevbahodirbuild.uz/static/media/gallery8.5d8070f2b6c3aac409b1.jpg",
+    img: mapimg8,
   },
 ];

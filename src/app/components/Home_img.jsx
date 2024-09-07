@@ -11,10 +11,10 @@ function Home_img() {
 
   return (
     <div className="mx-auto">
-      <h3 className="text-center my-8 text-[30px] text-black font-medium">
+      <h3 className="text-center my-8 text-[30px] sm:text-[24px] text-black font-medium">
         {t("sizning_uyingiz")}
       </h3>
-      <div className="grid grid-cols-3 lg:grid-cols-2 md:grid-cols-1 sm:px-10 sm:gap-y-5">
+      <div className="grid grid-cols-3 lg:grid-cols-2 md:grid-cols-1 sm:px-4 sm:gap-y-5">
         <img src={home} alt="home" className="h-[380px] w-full" />
         <img src={home1} alt="home1" className="h-[380px] w-full" />
         <img src={home2} alt="home2" className="h-[380px] w-full" />

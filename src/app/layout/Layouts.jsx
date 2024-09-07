@@ -19,7 +19,7 @@ function Layouts() {
   }, []);
 
   return (
-    <div className="scroll-smooth flex flex-col h-screen">
+    <div className="min-h-screen flex flex-col">
       <Navbar />
 
       <Outlet />

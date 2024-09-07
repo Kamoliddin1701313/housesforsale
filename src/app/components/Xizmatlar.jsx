@@ -17,7 +17,7 @@ function Xizmatlar() {
   const { t, i18n } = useTranslation();
   return (
     <div className="bg-[#fce8bd] overflow-hidden">
-      <div className="max-w-[1280px] mx-auto py-16 xxl:px-5 sm:px-10 sm:py-5">
+      <div className="max-w-[1280px] mx-auto py-16 xxl:px-5 sm:px-4 sm:py-5">
         <h3 className="text-center mb-10 text-[30px] sm:m-5 text-black font-medium">
           {t("biz_xizmatlarimiz")}
         </h3>

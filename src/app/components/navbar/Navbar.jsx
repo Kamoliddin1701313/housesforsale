@@ -34,7 +34,7 @@ function Navbar() {
     <header>
       <div
         className={`z-50 fixed top-0 w-full transition-all duration-300 ${
-          isScrolled ? "bg-[#fce8bd]/80" : "bg-transparent"
+          isScrolled ? "bg-[#fce8bd]" : "bg-transparent"
         }`}
       >
         <nav className="max-w-[1280px] relative mx-auto md:flex items-center justify-between">

@@ -7,7 +7,7 @@ function Footer() {
   const { t, i18n } = useTranslation();
 
   return (
-    <div className="bg-[#fce8bd] bottom-0">
+    <div className="bg-[#fce8bd] mt-auto">
       <div className="mx-auto max-w-[1280px] md:grid-cols-1 md:grid flex py-[70px] justify-between px-10">
         <div className="flex-1">
           <img

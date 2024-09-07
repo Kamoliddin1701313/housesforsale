@@ -29,7 +29,7 @@ function Murojat() {
       .then((res) => {
         document.getElementById("send").reset();
         setLoading(true);
-        alert("Muvaffaqiyotli bo'ldi ...");
+        alert("Muvaffaqiyotli yuborildi ...");
       })
       .catch((err) => {
         console.log("Yuborishda xatolik yuz berdi ", err);
@@ -37,8 +37,8 @@ function Murojat() {
   };
 
   return (
-    <div className="bg-slate-900 py-28 overflow-hidden">
-      <div className="bg-[url('src/assets/girl-img.png')] h-[700px] mx-auto max-w-[1280px] md:bg-right bg-cover w-4/5 rounded-[40px] py-10 px-20 sm:px-10">
+    <div className="bg-slate-900 py-28 sm:px-4 overflow-hidden">
+      <div className="bg-[url('src/assets/girl-img.png')] h-[700px] mx-auto max-w-[1280px] md:bg-right bg-cover w-4/5 sm:w-full rounded-[40px] py-10 px-20 sm:px-5">
         <form
           onSubmit={SendMessage}
           id="send"

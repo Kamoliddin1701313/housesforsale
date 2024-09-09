@@ -1,3 +1,10 @@
+import img1 from "../mockImg/img1.jpg";
+import img2 from "../mockImg/img2.jpg";
+import img3 from "../mockImg/img3.jpg";
+import img4 from "../mockImg/img4.jpg";
+import img5 from "../mockImg/img5.jpg";
+import img6 from "../mockImg/img6.jpg";
+
 import { useTranslation } from "react-i18next";
 
 function BizningLoyihalarimiz() {
@@ -7,32 +14,32 @@ function BizningLoyihalarimiz() {
     {
       title: t("magic_text"),
       text: t("magic_description"),
-      img: "src/app/mockImg/img1.jpg",
+      img: img1,
     },
     {
       title: t("garden_text"),
       text: t("garden_description"),
-      img: "src/app/mockImg/img2.jpg",
+      img: img2,
     },
     {
       title: t("fonon_text"),
       text: t("fonon_description"),
-      img: "src/app/mockImg/img3.jpg",
+      img: img3,
     },
     {
       title: t("invento_text"),
       text: t("invento_description"),
-      img: "src/app/mockImg/img4.jpg",
+      img: img4,
     },
     {
       title: t("presidential_school_text"),
       text: t("presidential_school_description"),
-      img: "src/app/mockImg/img5.jpg",
+      img: img5,
     },
     {
       title: t("boulevard_text"),
       text: t("boulevard_description"),
-      img: "src/app/mockImg/img6.jpg",
+      img: img6,
     },
   ];
 

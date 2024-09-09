@@ -24,7 +24,7 @@ function Barchayangiliklar() {
         <div className="flex items-center justify-between gap-10 lg:gap-5 md:grid md:grid-cols-1">
           <div
             data-aos="fade-right"
-            className="grid sm:gap-5 grid-cols-2 w-1/2 md:w-full md:grid-cols-2 sm:grid-cols-1"
+            className="grid sm:gap-5 grid-cols-2 h-[300px] w-1/2 md:w-full md:grid-cols-2 sm:grid-cols-1"
           >
             <img
               data-aos="flip-left"
@@ -44,7 +44,7 @@ function Barchayangiliklar() {
 
           <div
             data-aos="fade-left"
-            className="grid sm:gap-5 grid-cols-2 sm:grid-cols-1 w-1/2 md:w-full md:grid-cols-2"
+            className="grid sm:gap-5 h-[300px] grid-cols-2 sm:grid-cols-1 w-1/2 md:w-full md:grid-cols-2"
           >
             <img
               data-aos="flip-left"
@@ -69,7 +69,7 @@ function Barchayangiliklar() {
         <div className="flex items-center justify-between gap-10 lg:gap-5 md:grid md:grid-cols-1 mt-20">
           <div
             data-aos="fade-right"
-            className="grid sm:gap-5 grid-cols-2 w-1/2 md:w-full md:grid-cols-2 sm:grid-cols-1"
+            className="grid sm:gap-5 h-[300px] grid-cols-2 w-1/2 md:w-full md:grid-cols-2 sm:grid-cols-1"
           >
             <img
               data-aos="flip-right"
@@ -88,7 +88,7 @@ function Barchayangiliklar() {
 
           <div
             data-aos="fade-left"
-            className="grid sm:gap-5 grid-cols-2 sm:grid-cols-1 w-1/2 md:w-full md:grid-cols-2"
+            className="grid sm:gap-5 h-[300px] grid-cols-2 sm:grid-cols-1 w-1/2 md:w-full md:grid-cols-2"
           >
             <img
               data-aos="flip-right"

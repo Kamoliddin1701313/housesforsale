@@ -2,7 +2,7 @@ import { useEffect } from "react";
 import AOS from "aos"; // AOS kutubxonasini import qilish
 import { useTranslation } from "react-i18next";
 import { Link } from "react-router-dom";
-
+import userBgImg from "../../assets/user_backround.jpg";
 function BackgroundImageWithText() {
   useEffect(() => {
     AOS.init({
@@ -13,7 +13,10 @@ function BackgroundImageWithText() {
   const { t, i18n } = useTranslation();
 
   return (
-    <div className="py-[90px] sm:py-16 mt-10 xxl:mt-0 h-[700px] sm:h-[600px] overflow-hidden bg-cover bg-center bg-[url('src/assets/user_backround.jpg')]">
+    <div
+      className="py-[90px] sm:py-16 mt-10 xxl:mt-0 h-[700px] sm:h-[600px] overflow-hidden bg-cover bg-center"
+      style={{ backgroundImage: `url(${userBgImg})` }}
+    >
       <div className="mx-auto max-w-[1280px] text-white px-10 sm:px-4 md:text-center">
         <h2 className="text-[24px]">{t("username")}</h2>
         <h1

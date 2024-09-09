@@ -2,12 +2,13 @@ import CountUp from "react-countup";
 import { useCountUp } from "react-countup";
 import React from "react";
 import { useTranslation } from "react-i18next";
+import reactcounter from "../../assets/reactcountup.png"
 
 function AboutOurCampaign() {
   const { t, i18n } = useTranslation();
 
   return (
-    <div className="py-[90px] bg-cover bg-center bg-[url('src/assets/react-countup.png')]">
+    <div className="py-[90px] bg-cover bg-center " style={{backgroundImage: `url(${reactcounter})`}}>
       <div className="mx-auto max-w-[1280px] sm:px-2 xxl:px-10">
         <h2 className="text-[25px] font-normal lg:text-center text-white">
           {t("bizning_kompaniya")}

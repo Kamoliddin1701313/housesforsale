@@ -1,7 +1,7 @@
 import axios from "axios";
 import { useState } from "react";
 import { useTranslation } from "react-i18next";
-
+import girlImg from "../../assets/girl-img.png";
 function Murojat() {
   const { t, i18n } = useTranslation();
 
@@ -38,7 +38,10 @@ function Murojat() {
 
   return (
     <div className="bg-slate-900 py-28 sm:px-4 overflow-hidden">
-      <div className="bg-[url('src/assets/girl-img.png')] h-[700px] mx-auto max-w-[1280px] md:bg-right bg-cover w-4/5 sm:w-full rounded-[40px] py-10 px-20 sm:px-5">
+      <div
+        style={{ backgroundImage: `url(${girlImg})` }}
+        className="h-[700px] mx-auto max-w-[1280px] md:bg-right bg-cover w-4/5 sm:w-full rounded-[40px] py-10 px-20 sm:px-5"
+      >
         <form
           onSubmit={SendMessage}
           id="send"

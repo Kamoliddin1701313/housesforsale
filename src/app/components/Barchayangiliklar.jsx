@@ -21,7 +21,7 @@ function Barchayangiliklar() {
           {t("barcha_yangiliklar")}
         </h3>
 
-        <div className="flex items-center justify-between gap-10 lg:gap-5 md:grid md:grid-cols-1">
+        <div className="flex items-center justify-between gap-10 lg:gap-5 md:grid md:grid-cols-1 sm:grid sm:grid-cols-1">
           <div
             data-aos="fade-right"
             className="grid sm:gap-5 grid-cols-2 h-[300px] w-1/2 md:w-full md:grid-cols-2 sm:grid-cols-1"
@@ -66,7 +66,7 @@ function Barchayangiliklar() {
 
         {/*  */}
 
-        <div className="flex items-center justify-between gap-10 lg:gap-5 md:grid md:grid-cols-1 mt-20">
+        <div className="flex items-center justify-between gap-10 lg:gap-5 md:grid md:grid-cols-1 mt-20 sm:grid sm:grid-cols-1">
           <div
             data-aos="fade-right"
             className="grid sm:gap-5 h-[300px] grid-cols-2 w-1/2 md:w-full md:grid-cols-2 sm:grid-cols-1"

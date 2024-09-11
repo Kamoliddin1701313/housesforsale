@@ -13,8 +13,9 @@ function Murojat() {
     const chat_id = 6399996460;
     const url = `https://api.telegram.org/bot${token}/sendMessage`;
     const name = document.getElementById("name").value;
-    const phone_number = document.getElementById("phone_number");
-    const messageContent = `Ism : ${name} \n PhoneNumber : ${phone_number}`;
+    const phone_number = document.getElementById("phone_number").value;
+    const textarea = document.getElementById("textarea").value;
+    const messageContent = `Ism : ${name} \n PhoneNumber : ${phone_number} \n Text content : ${textarea}`;
     console.log(name);
     console.log(phone_number);
 

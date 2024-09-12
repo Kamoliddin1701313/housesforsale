@@ -24,7 +24,7 @@ function Barchayangiliklar() {
         <div className="flex items-center justify-between gap-10 md:gap-0 md:grid md:grid-cols-1">
           <div
             data-aos="fade-right"
-            className="grid grid-cols-2 h-[300px] sm:h-[250px] bg-red-500 w-1/2 md:w-full md:grid-cols-2"
+            className="grid grid-cols-2 h-[300px] sm:h-[250px] w-1/2 md:w-full md:grid-cols-2"
           >
             <img
               data-aos="flip-left"
@@ -36,7 +36,7 @@ function Barchayangiliklar() {
             />
 
             <div className="w-full p-5 md:w-full h-full md:h-[250px] bg-white md:rounded-none sm:h-full rounded-r-[30px] xxl:overflow-y-auto">
-              <button className="w-3/6 bg-[#363f4e] rounded-[17px] border-[#363f4e] duration-300 ease-in h-[26px] border-[2px] hover:bg-white"></button>
+              <button className="w-3/6 bg-[#363f4e] rounded-[17px] border-[#363f4e] duration-300 sm:w-full ease-in h-[26px] border-[2px] hover:bg-white"></button>
               <h3 className="text-[18px] leading-[22px] my-3">{t("menejr")}</h3>
               <p className="text-xs leading-[18px]">{t("menejr_text")}</p>
             </div>
@@ -55,7 +55,7 @@ function Barchayangiliklar() {
               className="w-full h-full rounded-l-[30px] md:rounded-none md:w-full md:h-[250px]"
             />
             <div className="w-full p-5 md:w-full h-full md:h-[250px] bg-white md:rounded-none rounded-r-[30px] xxl:overflow-y-auto">
-              <button className="w-3/6 bg-[#363f4e] rounded-[17px] border-[#363f4e] duration-300 ease-in h-[26px] border-[2px] hover:bg-white"></button>
+              <button className="w-3/6 sm:w-full bg-[#363f4e] rounded-[17px] border-[#363f4e] duration-300 ease-in h-[26px] border-[2px] hover:bg-white"></button>
               <h3 className="text-[18px] leading-[22px] my-3">
                 {t("tabriknoma")}
               </h3>
@@ -80,7 +80,7 @@ function Barchayangiliklar() {
               className="w-full h-full rounded-l-[30px] md:rounded-none md:w-full md:h-[250px] sm:h-full"
             />
             <div className="w-full p-5 md:w-full h-full md:h-[250px] bg-white md:rounded-none sm:h-full rounded-r-[30px] xxl:overflow-y-auto">
-              <button className="w-3/6 bg-[#363f4e] rounded-[17px] border-[#363f4e] duration-300 ease-in h-[26px] border-[2px] hover:bg-white"></button>
+              <button className="w-3/6 sm:w-full bg-[#363f4e] rounded-[17px] border-[#363f4e] duration-300 ease-in h-[26px] border-[2px] hover:bg-white"></button>
               <h3 className="text-[18px] leading-[22px] my-3">{t("manzil")}</h3>
               <p className="text-xs leading-[18px]">{t("menejr_text2")}</p>
             </div>
@@ -100,7 +100,7 @@ function Barchayangiliklar() {
             />
 
             <div className="w-full p-5 md:w-full h-full md:h-[250px] bg-white md:rounded-none rounded-r-[30px] xxl:overflow-y-auto">
-              <button className="w-3/6 bg-[#363f4e] rounded-[17px] border-[#363f4e] duration-300 ease-in h-[26px] border-[2px] hover:bg-white"></button>
+              <button className="w-3/6 sm:w-full bg-[#363f4e] rounded-[17px] border-[#363f4e] duration-300 ease-in h-[26px] border-[2px] hover:bg-white"></button>
               <h3 className="text-[18px] leading-[22px] my-3">
                 {t("sarlavxa")}
               </h3>

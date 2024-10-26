@@ -64,56 +64,52 @@ function Navbar() {
             open ? "md:block" : "md:hidden"
           }`}
         >
-          <li className={`${isScrolled ? "text-black" : "text-white"}`}>
+          <li className="text-[#070129c8]">
             <a href="/">{t("malumot")}</a>
           </li>
 
-          <li className={`${isScrolled ? "text-black" : "text-white"}`}>
+          <li className="text-[#070129c8]">
             <a href="#biz-haqimizda">{t("biz-haqimizda")}</a>
           </li>
 
-          <li className={`${isScrolled ? "text-black" : "text-white"}`}>
+          <li className="text-[#070129c8]">
             <a href="#korxonalar">{t("korxonalar")}</a>
           </li>
 
-          <li
-            className={`md:hidden ${isScrolled ? "text-black" : "text-white"}`}
-          >
+          <li className="md:hidden">
             <a href="#">
               <img
-                src={`${isScrolled ? footer_logo : text_img}`}
+                src={footer_logo}
                 alt="text_img"
                 className="w-[120px] xl:w-[100px] lg:w-[80px]"
               />
             </a>
           </li>
 
-          <li className={`${isScrolled ? "text-black" : "text-white"}`}>
+          <li className="text-[#070129c8]">
             <a href="#bizning-loyihalarimiz">{t("afzaliklar")}</a>
           </li>
 
-          <li className={`${isScrolled ? "text-black" : "text-white"}`}>
+          <li className="text-[#070129c8]">
             <a href="#yangiliklar">{t("yangiliklar")}</a>
           </li>
 
-          <li className={`${isScrolled ? "text-black" : "text-white"}`}>
+          <li className="text-[#070129c8]">
             <a href="#">{t("aloqa")}</a>
           </li>
 
           <select
-            className={`bg-transparent outline-none md:mx-auto md:w-1/4 relative ${
-              isScrolled ? "text-black" : "text-white"
-            }`}
+            className="bg-transparent outline-none md:mx-auto md:w-1/4 relative text-[#070129c8]"
             onChange={handleChange}
             value={laungage}
           >
-            <option value="uz" className="text-black">
+            <option value="uz" className="text-[#070129c8]">
               UZ
             </option>
-            <option value="ru" className="text-black">
+            <option value="ru" className="text-[#070129c8]">
               RU
             </option>
-            <option value="en" className="text-black">
+            <option value="en" className="text-[#070129c8]">
               EN
             </option>
           </select>

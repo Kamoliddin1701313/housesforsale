@@ -5,7 +5,6 @@ import { HiOutlineBars3 } from "react-icons/hi2";
 import text_img from "../../../assets/text_img.png";
 import footer_logo from "../../../assets/footer_logo_img.png";
 import { useTranslation } from "react-i18next";
-import { style } from "../../styleses";
 
 function Navbar() {
   const [open, setOpen] = useState(false);
@@ -75,7 +74,6 @@ function Navbar() {
           <li className="text-[#070129c8]">
             <a href="#korxonalar">{t("korxonalar")}</a>
           </li>
-
           <li className="md:hidden">
             <a href="#">
               <img
